@@ -13,6 +13,8 @@ public class Recursion {
         return n+summation(n-1);
     }
 
+
+
     /*
     * 阶乘  最大公约数  乘方
     * */
@@ -26,6 +28,10 @@ public class Recursion {
     * */
     public static void main(String[] args) {
        new Recursion().toweOfHanoi(3,'A','B','C');
+        byte b = Byte.MAX_VALUE;
+        b+=1;
+
+        System.out.println(b);
     }
     class a{
         int size;
@@ -78,6 +84,7 @@ public class Recursion {
 
         }
     }
+
     public void deflection2(String s){
         char[] arr = s.toCharArray();
         doAnagram(s.length(),arr);
